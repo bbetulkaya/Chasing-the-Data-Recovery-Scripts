@@ -13,15 +13,15 @@ A Python-based tool to recover and fix corrupted text files by detecting and app
 ```bash
 git clone https://github.com/bbetulkaya/Chasing_the_Data_Recovery_Scripts/00_text-recovery-tool.git
 cd 00_text-recovery-tool
-
+```
 ### 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Run the Tool
 ```bash
 python3 recovery.py
-
+```
 ## 🛠 How It Works
 - The tool scans the test_files directory for .txt files.
 - It attempts to detect their encoding using chardet.
@@ -34,7 +34,7 @@ python3 recovery.py
  ├── 🔹 recovery.py     # Main Python script  
  ├── 🔹 requirements.txt # Dependencies    
  └── 🔹 README.md       # Project documentation  
-
+```
 ## 🤝 Contributing
 
 Feel free to submit pull requests or report issues!
